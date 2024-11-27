@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auto Download</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            // Create a link element
+            var link = document.createElement('a');
+            link.href = 'path/to/your/file.zip'; // Path to the file
+            link.download = 'file.zip';  // The filename for the downloaded file
+
+            // Trigger a click event on the link to start the download
+            link.click() ;
+        };
+    </script>
+</head>
+<body>
+    <h1>Welcome to the page</h1>
+    <p>Your file will download automatically...</p>
+</body>
+</html>
